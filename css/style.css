@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+
+html, body {
+    background-color: white;
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+}
+
+.box {
+    background-color: white;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 30%;
+    left: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.box_r {
+    background-color: white;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 2px;
+    left: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .box input{
+    font-family: Poppins;
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .box_r input{
+    font-family: Poppins;
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .box button {
+    font-family: Poppins;
+}
+
+.box_r button {
+    font-family: Poppins;
+}
+
+.box_r .fieldnames {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+}
+
+.box_r .fieldnames input {
+    font-family: Poppins;
+    width: 182px;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.control {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.control input {
+    border-radius: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.reg {
+    font-family: Poppins;
+}
+
+.box .entrar {
+    color: white;
+    background-color: rgb(0, 3, 51);
+    margin-top: 10px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .registar {
+    color: white;
+    background-color: rgb(0, 3, 51);
+    margin-top: 20px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .entrar:hover {
+    color: white;
+    background-color: rgb(91, 102, 255);
+    margin-top: 10px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .registar:hover {
+    color: white;
+    background-color: rgb(91, 102, 255);
+    margin-top: 20px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .separate {
+    color: rgb(235, 235, 235);
+    border: 0.2px solid rgb(231, 231, 231);
+    width: 80%;
+    box-shadow: 0 2px 4px 0 rgba(187, 187, 187, 0.2), 0 3px 10px 0 rgba(187, 187, 187, 0.2);
+}
+
+.box_r .entrar {
+    color: white;
+    background-color: rgb(0, 3, 51);
+    margin-top: 10px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box_r .registar {
+    color: white;
+    background-color: rgb(0, 3, 51);
+    margin-top: 20px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box_r .entrar:hover {
+    color: white;
+    background-color: rgb(91, 102, 255);
+    margin-top: 10px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box_r .registar:hover {
+    color: white;
+    background-color: rgb(91, 102, 255);
+    margin-top: 20px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box_r .separate {
+    color: rgb(235, 235, 235);
+    border: 0.2px solid rgb(231, 231, 231);
+    width: 80%;
+    box-shadow: 0 2px 4px 0 rgba(187, 187, 187, 0.2), 0 3px 10px 0 rgba(187, 187, 187, 0.2);
+}
+
+.is-danger {
+    background-color: white;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 170px;
+    left: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.is-danger p {
+    color: black;
+    font-family: Poppins;
+    margin-top: 5px;
+    font-size: small;
+}
+
+#menu .active {
+    border-bottom: 1px solid rgb(91, 102, 255);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+nav {
+    min-width: 100%;
+}
+
+#menu {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(87, 87, 87);
+	-moz-box-shadow: 0 8px 6px -6px rgb(87, 87, 87);
+	box-shadow: 0 8px 6px -6px rgb(95, 95, 95);
+}
+
+#menu ul {
+    display: grid;
+    list-style-type: none;
+    background-color: rgb(0, 3, 51);
+    padding-left: 0;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#menu button {
+    font-family: Poppins;
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    font-size: medium;
+    width: 100%;
+}
+
+#menu .dropdown {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    float: left;
+    margin-left: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#menu .dropdown li {
+    color: white;
+    font-family: Poppins;
+}
+
+#menu .logout {
+    cursor: pointer;
+    vertical-align: middle;
+    float: right;
+    text-align: center; 
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-size: 100%;
+    margin-right: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#menu input {
+    font-family: Poppins;
+}
+
+#menu .center {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#menu .aboutus {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#menu .contacts {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#menu .center li {
+    text-align: center;
+}
+  
+#menu li a {
+    color: white; 
+    font-family: Poppins;
+    text-decoration: none;
+}
+  
+#menu .aboutus:hover {
+    background-color: rgb(91, 102, 255);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 10px;
+}
+
+#menu .logout:hover {
+    background-color: rgb(91, 102, 255);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 10px;
+}
+
+#menu .dropdown:hover {
+    background-color: rgb(91, 102, 255);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 10px;
+}
+
+#menu .contacts:hover {
+    background-color: rgb(91, 102, 255);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 10px;
+}
+
+#menu .events:hover {
+    background-color: rgb(91, 102, 255);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 10px;
+}
+
+.fixed-bottom {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+.pagination {
+    display: inline-block;
+    margin-top: 6px;
+}
+  
+.pagination a {
+    background-color: #ccc;
+    font-family: Poppins;
+    font-size: 70%;
+    border-radius: 5px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+  
+.pagination a.active {
+    background-color: #110041;
+    border: 1px solid #110041;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+#pesquisa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+    position: fixed;
+    background-color: #ddd;
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+    z-index: 2;
+    top: 65px;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(87, 87, 87);
+	-moz-box-shadow: 0 8px 6px -6px rgb(87, 87, 87);
+	box-shadow: 0 8px 6px -6px rgb(95, 95, 95);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.7em;
+}
+
+#pesquisa .switchbuttons {
+    display: block;
+    font-family: Poppins;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+#pesquisa .search {
+    font-family: Poppins;
+    vertical-align: middle;
+    align-items: center;
+    height: 30px;
+    font-size: 80%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#pesquisa .MenuRestaurantTitle {
+    color: black;
+    font-family: Poppins;
+    text-align: center;
+    margin: auto;
+}
+
+#restaurants {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 135px;
+    row-gap: 6px;
+    column-gap: 6px;
+}
+
+#restaurants #container {
+    position: relative;
+    align-items: center;
+    max-width: auto;
+    max-height: 390px;
+    height: 390px;
+}
+
+#restaurants #container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+  
+#restaurants #container .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 3, 51);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+#restaurants #container:hover .overlay {
+    height: 100%;
+}
+  
+#restaurants #container .overlay a {
+    white-space: nowrap; 
+    color: white;
+    font-family: Poppins;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+   
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: rgb(0, 3, 51);
+    width: 33.05%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2), 0 6px 0 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    padding-top: 0.4em;
+}
+  
+  
+.dropdown-content #non-edit a {
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+    text-decoration: none;
+    font-family: Poppins;
+    display: block;
+}
+  
+  
+  /*.dropdown-content #edit a:hover {
+      background-color: #ddd;
+      border-radius: 10px;
+    }*/
+
+.show {display:block;}
+
+#edit {
+    display: none;
+}
+
+#edit .field {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    color: white;
+    font-family: Poppins;
+}
+
+#edit .field input {
+    font-family: Poppins;
+    width: 182px;
+    height: 25px;
+    border-radius: 8px;
+    right: 20px;
+}
+
+#edit button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+#edit button:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: beige;
+    color: black;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.editbtn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.menus_favoritos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.restaurantes_favoritos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.dropdown #myDropdown .editbtn:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: beige;
+    color: black;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.dropdown #myDropdown .menus_favoritos:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: beige;
+    color: black;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.dropdown #myDropdown .restaurantes_favoritos:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: beige;
+    color: black;
+    width: 50%;
+    border-radius: 8px;
+}
+
+#menus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 135px;
+    row-gap: 6px;
+    column-gap: 6px;
+}
+
+#menus #container {
+    position: relative;
+}
+
+#menus #container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#menus #container .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 3, 51);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+#menus #container:hover .overlay {
+    height: 100%;
+}
+  
+#menus #container .overlay a {
+    white-space: nowrap; 
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.fieldroles label {
+    font-family: Poppins;
+}
+
+#pesquisa_r {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    background-color: #ddd;
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+    z-index: 2;
+    top: 65px;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(87, 87, 87);
+	-moz-box-shadow: 0 8px 6px -6px rgb(87, 87, 87);
+	box-shadow: 0 8px 6px -6px rgb(95, 95, 95);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.7em;
+}
+
+#pesquisa_r .switchbuttons {
+    display: block;
+    font-family: Poppins;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+#pesquisa_r .search {
+    font-family: Poppins;
+    vertical-align: middle;
+    align-items: center;
+    height: 30px;
+    font-size: 80%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#pesquisa_r button {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(0, 3, 51);
+    width: 380px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#pesquisa_r button:hover {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(91, 102, 255);
+    width: 380px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#pesquisa_r .MenuRestaurantTitle {
+    color: black;
+    font-family: Poppins;
+    text-align: center;
+    margin: auto;
+}
+
+#createRestaurant {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(0, 3, 51);
+    width: 380px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#createRestaurant:hover {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(91, 102, 255);
+    left: 50%;
+    width: 380px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#createMenu {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(0, 3, 51);
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#createMenu:hover {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(91, 102, 255);
+    left: 50%;
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#editRest {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(0, 3, 51);
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color: rgb(0, 3, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#editRest:hover {
+    color: white;
+    font-family: Poppins;
+    background-color: rgb(91, 102, 255);
+    left: 50%;
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: rgb(91, 102, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 8px;
+}
+
+#butto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box label {
+    font-family: Poppins;
+}
+
+.imgforms {
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 40%;
+    left: 300px;
+    border-radius: 50%;
+}
+
+.box_abouts {
+    background-color:  rgb(0, 3, 51);
+    font-family: Poppins;
+    color: white;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 35%;
+    left: 750px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+}
+
+.box_contactus {
+    background-color:  rgb(0, 3, 51);
+    font-family: Poppins;
+    color: white;
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 35%;
+    left: 750px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+}
