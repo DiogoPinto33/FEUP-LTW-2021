@@ -1,4 +1,4 @@
-# ltw-t15-g01
+# Website for Restaurant Take-Away
 
 ## Features
 
